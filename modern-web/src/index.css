@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mukta:wght@300;400;500&family=Oswald&display=swap');
+
+:root{
+    --font-family: 'Inter', sans-serif;
+    --font-family-1: 'Oswald', sans-serif;
+    --font-family-2: 'Mukta', sans-serif;
+
+
+    --gradient-text: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    --gradient-bar: {
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)};
+
+    --color-bg:#040c18;
+    --color-footer:#031b34;
+    --color-blog: #042c54;
+    --color-text: #81AFDD;
+    --color-subtext: #FF8A71;
+    --color:#952aa1;
+}

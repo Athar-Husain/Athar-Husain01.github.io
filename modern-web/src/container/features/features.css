@@ -1,0 +1,37 @@
+
+.datazip_features{
+    margin: 1rem;
+
+}
+
+.datazip_features-content{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.datazip_features-content h1{
+    margin: 0.5rem;
+    color: cornflowerblue;
+    letter-spacing: 1px;
+    font-family: system-ui;
+}
+
+.datazip_features-content p {
+    margin: 0.5rem;
+    font-size: 22px;
+    color: aliceblue;
+
+}
+
+
+@media screen and (max-width: 1050px) {
+    .datazip_features-content {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .datazip_features-content {
+        width: 90%;
+    }
+}

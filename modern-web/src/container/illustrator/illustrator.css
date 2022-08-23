@@ -1,0 +1,81 @@
+.datazip_illustrator-content{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+
+}
+.datazip_illustrator-content h1{
+    margin: 0.5rem;
+    color:cornflowerblue;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.datazip_illustrator-content p{
+    margin: 0.5rem;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+
+
+.datazip_illustrator-items svg{
+    /* cursor: pointer; */
+    margin: 1rem;
+    font-size: 65px;
+    color: #fff;
+    background-color: rgba(46, 65, 124, 0.815);
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: var(--color);
+}
+
+.datazip_illustrator-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    width: 90%;
+    margin: auto;
+}
+
+.datazip_illustrator-item{
+    max-width: 250px;
+    margin: 2.2rem;
+    justify-content: space-around;
+    text-align: center;
+    align-items: baseline;
+    color: #fff;
+}
+.datazip_illustrator-item h2{
+    text-align: center;
+    align-items: baseline;
+    margin: 0.5rem;
+    font-family: system-ui;
+    color: rgb(177, 174, 170);
+}
+
+.datazip_illustrator-item p{
+    color: rgb(214, 217, 250);
+    opacity: 0.8;
+}
+
+
+
+
+
+@media screen and (max-width: 550px) {
+    .datazip_illustrator-item {margin: 1rem;}
+
+    .datazip_illustrator-content p {
+        
+        font-size: 15px;
+    }
+
+    .datazip_illustrator-content{
+        text-align: center;
+        width: 80%;
+    
+    }
+}
+

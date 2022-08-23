@@ -1,0 +1,136 @@
+.datazip_header-content{
+    display: flex;
+}
+.datazip_header-content-left{
+    flex-basis: 70%;
+    text-align: center;
+    margin: 1rem;
+
+}
+.datazip_header-content-right{
+    display: flex;
+    flex-basis: 30%;
+}
+.datazip_header-content-right-img{
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.datazip_header-content-right-img img {height: 200px;}
+
+
+.datazip_header-content h1,
+.datazip_header-content span,
+.datazip_header-content p{padding: 1rem;}
+
+.datazip_header-content h1{
+    color: rgb(241, 242, 243);
+    font-size: 2.8rem;
+    opacity: 0.8;
+    font-weight: 900;
+}
+.datazip_header-content span{color: rgb(126, 126, 219); }
+
+.datazip_header-content-center{
+    width: 100%; 
+    text-align: center; 
+}
+
+
+.datazip_header-content-center p{
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    font-family: system-ui;
+    padding: 1rem;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+
+.datazip_header-content-center button{
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-family: var(--font-family-1);
+    margin: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    background-color: rgb(5, 105, 255);
+}
+
+button:hover { transform: translatey(-2px); }
+
+
+@media screen and (max-width: 1050px) {
+    
+    .datazip_header-content h1{
+        font-size: 2rem;
+    }
+    .datazip_header-content-right-img img {
+        height: 150px;
+        margin-top: 0.8rem;
+    }
+
+   
+}
+@media screen and (max-width: 850px) {
+    .datazip_header-content h1{
+        font-size: 1.8rem;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    .datazip_header-content h1{
+        font-size: 1.6rem;
+    }
+    .datazip_header-content-right-img img {
+        height: 120px;
+        margin-top: 1rem;
+    }
+    .section_padding {
+        padding: 2rem 1rem;
+    }    
+}
+
+@media screen and (max-width: 650px) {
+    .datazip_header-content h1{
+        font-size: 1.2rem;
+    }
+    .datazip_header-content-right-img img {
+        height: 100px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .datazip_header-content-left {
+        margin: 0;
+    }
+    .datazip_header-content h1{
+        font-size: 1.2rem;
+    }
+    .datazip_header-content{
+        flex-direction: column;
+    }
+    .section_padding {
+        padding: 1rem;
+    }
+    .datazip_header-content-right-img {
+        display: flex;
+        justify-content: center;
+        margin: 0.7rem 1rem;
+        height: 120px;
+    }
+    .datazip_header-content-center p {
+        max-width: 100%;
+        color: aliceblue;
+        font-family: system-ui;
+        line-height: 22px;
+
+        padding: 0.5rem;
+        font-size: 13px;
+    }
+    .section_padding { padding: 2rem 1rem; }
+
+}

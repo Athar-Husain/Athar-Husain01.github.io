@@ -1,0 +1,106 @@
+.datazip_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 2rem;
+}
+.datazip_navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.datazip_navbar-links_logo{
+   margin: 1rem;
+}
+.datazip_navbar-links_logo img{
+    width: 140px;
+}
+
+.datazip_navbar-links_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.datazip_navbar-links_container p,
+.datazip_navbar-menu_container-links p{
+    margin: 0 0.6rem;
+    padding: 0.2rem 0.6rem;
+    color: white;
+    align-items: center;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    transition: all ease 0.6s;
+}
+
+.datazip_navbar-links_container p:hover{
+    opacity: 1;
+}
+
+.datazip_navbar-menu{
+    display: none;
+    position: relative;
+}
+.datazip_navbar-menu svg{cursor: pointer;}
+
+.datazip_navbar-menu_container {
+    display: flex;
+    z-index: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    right: 0%;
+    padding: 1rem 0.5rem;
+    margin-top: 2rem;
+    min-width: 120px;
+    border-radius: 5px;
+    background: var(--color-footer);
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+
+.datazip_navbar-menu_container p{
+    margin: 1rem 0;
+}
+
+
+/* @media screen and (max-width: 1050px) {
+    .datazip_navbar-links_container{
+        display: none;
+    }
+} */
+
+@media screen and (max-width: 700px) {
+    .datazip_navbar {
+        padding: 0.5rem 1rem;
+    }
+    .datazip_navbar-links_logo {
+        margin: 0.5rem 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .datazip_navbar-links_container{
+        display: none;
+    }
+    .datazip_navbar-menu{
+        display: flex;
+    }
+    .datazip_navbar {
+        padding: 0.6rem;
+        margin: 0 0.5rem;
+    }
+    .datazip_navbar-links_logo {
+        margin: 0.2rem 0;
+    }
+}
+    
+

@@ -1,0 +1,53 @@
+.datazip_cta{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 4rem 2rem;
+    border-radius: 5px;
+}
+
+.datazip_cta-content h2{
+    margin: 0.5rem;
+    color: #e2e8f3;
+    letter-spacing: 1px;
+    font-family: system-ui;
+}
+
+.datazip_cta-action{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.datazip_cta-action svg {
+    cursor: pointer;
+    padding: 1px;
+    font-size: 20px;
+}
+input{
+    outline: none;
+    border: none;
+}
+
+.datazip_cta-action svg:hover{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width:670px) {
+    .datazip_cta{
+       flex-direction: column;
+    }
+    .datazip_cta-content h2 {
+        text-align: center;
+    }
+    .datazip_cta-action {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    
+}
